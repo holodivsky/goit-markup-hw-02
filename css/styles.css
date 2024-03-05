@@ -153,7 +153,7 @@ button{
 }
 
 .ourteam {
-    background-color: #FFFFFF
+    background-color: #F4F4FD;
 }
 
 .ourteam-title {
@@ -170,7 +170,9 @@ button{
 
 .ourteam-list {}
 
-.ourteam-item {}
+.ourteam-item {
+    background-color: #FFFFFF
+}
 
 .ourteam-item-photo {
     width: 264px;
@@ -204,6 +206,14 @@ button{
 }
 
 .ourportfolio-title{
+        font-weight: 700;
+        font-size: 36px;
+    
+        line-height: 40px; 
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
 
 }
 
@@ -217,8 +227,6 @@ button{
 
 .ourportfolio-image{
     width: 360px;
-    height: 300px;
-
 }
 
 .ourportfolio-list-header{
