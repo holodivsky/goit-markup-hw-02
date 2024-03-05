@@ -53,10 +53,18 @@ button{
                 letter-spacing: 0.02em;
                 color: #2e2f42;
 }
+
 .header-menu-item:hover {
-color: #434455;
+    color: #404bbf;
 }
-.header-adress {}
+
+.header-menu-item:focus {
+    color: #404bbf;
+}
+
+.header-adress {
+    font-style: normal
+}
 
 .header-adress-list {}
 
@@ -78,7 +86,7 @@ color: #434455;
     color: #404bbf;
 }
 
-.header-adress-link:active {
+.header-adress-link:focus {
     color: #404bbf;
 }
 
@@ -102,10 +110,18 @@ color: #434455;
         font-weight: 500;
         font-size: 16px;
     
-        line-height: 1.07;
         letter-spacing: 0.04em;
         color: #fff;
-        background-color: #4D5AE5
+        background-color: #4D5AE5;
+        line-height: 1.5
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 .benefits {}
@@ -137,7 +153,7 @@ color: #434455;
 }
 
 .ourteam {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF
 }
 
 .ourteam-title {
