@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto' , sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 ul{
     list-style: none;
@@ -17,15 +19,23 @@ button{
 .header-navigation {}
 
 .header-logo {
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
 
      line-height: 21px; 
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.header-logo:hover {
+    color: #404bbf;
+}
+
+.header-logo:focus {
+    color: #404bbf;
 }
 
 .header-logo-cursive {
@@ -64,6 +74,14 @@ color: #434455;
             color: #434455;
 }
 
+.header-adress-link:hover {
+    color: #404bbf;
+}
+
+.header-adress-link:active {
+    color: #404bbf;
+}
+
 .hero {
     background-color: #2E2F42;
 }
@@ -73,20 +91,21 @@ color: #434455;
         font-size: 56px;
     
         line-height: 60px; 
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
 .hero-button {
+    
         font-weight: 500;
         font-size: 16px;
     
-         line-height: 24px; 
-        line-height: 1.5;
+        line-height: 1.07;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: #4D5AE5
 }
 
 .benefits {}
@@ -126,7 +145,7 @@ color: #434455;
         font-size: 36px;
     
          line-height: 40px; 
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
@@ -164,6 +183,48 @@ color: #434455;
     color: #434455;
 }
 
+.ourportfolio{
+
+}
+
+.ourportfolio-title{
+
+}
+
+.ourportfolio-list{
+
+}
+
+.ourportfolio-item{
+
+}
+
+.ourportfolio-image{
+    width: 360px;
+    height: 300px;
+
+}
+
+.ourportfolio-list-header{
+        font-weight: 500;
+        font-size: 20px;
+    
+         line-height: 24px; 
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.ourportfolio-list-text{
+        font-weight: 400;
+        font-size: 16px;
+    
+        line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
 .footer {
     background-color: #2E2F42;
 }
@@ -174,7 +235,7 @@ color: #434455;
         font-size: 18px;
     
          line-height: 21px; 
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
